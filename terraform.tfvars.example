@@ -1,0 +1,16 @@
+
+location   = "eastus"
+org_prefix = "mbtg"
+
+subscription_ids = {
+  production     = "00000000-0000-0000-0000-000000000000"
+  nonproduction  = "00000000-0000-0000-0000-000000000000"
+  sharedservices = "00000000-0000-0000-0000-000000000000"
+}
+
+tags = {
+  Owner       = "MB Technology Group"
+  ManagedBy   = "Terraform"
+  Environment = "Shared"
+  CostCenter  = "0000"
+}
